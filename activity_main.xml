@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="355dp"
+        android:layout_height="57dp"
+        android:background="#3F51B5"
+        android:gravity="center"
+        android:text="Register-form"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/Plate_No"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="plate_no" />
+
+    <EditText
+        android:id="@+id/S_Point"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="STARTING-POINT" />
+
+    <EditText
+        android:id="@+id/Destination"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="DESTINATION" />
+
+    <!--<Spinner
+        android:id="@+id/spinnerGenres"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:spinnerMode="@array/Genres" />-->
+
+    <EditText
+        android:id="@+id/Amount_In_Rs"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="TOTAL AMOUNT"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonAddArtist"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="SUBMIT" />
+
+    <ListView
+        android:id="@+id/ListViewArtists"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:text="ListViewInfo" />
+
+
+</LinearLayout>
